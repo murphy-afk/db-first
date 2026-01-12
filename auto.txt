@@ -1,0 +1,27 @@
+auto usate:
+
+id: PRIMARY_KEY - UNSIGNED INT - UNIQUE - NOT NULL
+tipo_veicolo: VARCHAR(255) - NOT NULL
+modello: VARCHAR(255) - NOT NULL
+marca: VARCHAR(255) - NOT NULL
+targa: VARCHAR(255) - NULL
+condizioni: TEXT - NULL
+porprietario_precedente: VARCHAR(255) - NOT NULL
+prezzo_eur: DECIMAL(7,2) - NULL
+anno_immatricolazione: YEAR - NULL
+cambio: VARCHAR(255) - NULL
+alimentazione: VARCHAR(255) - NULL
+potenza_cavalli: UNSIGNED SMALLINT - NULL
+cilindrata: UNSIGNED SMALLINT - NULL
+vin: VARCHAR(255) - NOT NULL
+chilometri_percorsi: INT - NULL
+colore: VARCHAR(255) NULL
+alterazioni: TEXT - NULL
+adatta_neopatentati: BOOLEAN - NULL
+data_arrivo: DATE - NOT NULL
+numero_poprietari_precedenti: UNSIGNED SMALL INT - NULL
+venduta: BOOLEAN - NOT NULL
+data_vendita: DATE - NULL
+acquirente: VARCHAR(255) - NULL
+note: TEXT - NOT NULL
+
